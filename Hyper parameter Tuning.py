@@ -24,7 +24,7 @@ from tensorflow.keras.layers import Dense, Activation, Embedding, Flatten, Leaky
 from tensorflow.keras.activations import relu, sigmoid
 
 # Importing the dataset
-dataset = pd.read_csv("C:/Ram Folders/Python/Data/RAM/Complete-Deep-Learning-master/ANN/Churn_Modelling.csv")
+dataset = pd.read_csv("/ANN/Churn_Modelling.csv")
 X = dataset.iloc[:, 3:13]
 y = dataset.iloc[:, 13]
 
